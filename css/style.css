@@ -1,0 +1,147 @@
+:root {
+  --black: #0b0b0b;
+  --white: #ffffff;
+  --light: #eaeaea;
+  --soft-pink: #f7dede;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: var(--white);
+  color: var(--black);
+}
+
+/* NAVBAR */
+.nav {
+  padding: 18px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--soft-pink);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+nav a {
+  margin-left: 26px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px; 
+  border-radius: 50%;
+  overflow: hidden;      
+  margin: 0 auto 20px;
+  border: 3px solid #eee;
+}
+
+.profile-pic img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;     
+}
+
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 32px;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* SECTION */
+.section {
+  padding: 60px 10%;
+}
+
+.section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+}
+
+/* LIST */
+.list li {
+  margin-bottom: 10px;
+}
+
+/* SKILLS */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.skill-card {
+  padding: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+/* PROJECTS */
+.project-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.project-card a {
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* LINKS */
+.links-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.link-card {
+  padding: 16px 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--soft-pink);
+  margin-top: 40px;
+}
